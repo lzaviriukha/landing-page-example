@@ -280,3 +280,40 @@ margin-right: 58px;
 .infoblock:hover .infoblock__link {
   display: inline-block;
 }
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.article_reverse{
+  flex-direction: row-reverse;
+}
+
+.artcle__img, 
+.article__content {
+  width: 50%;
+  flex-shrink: 50%;
+}
+
+.article__content {
+  padding-left: 6rem;
+}
+
+.article__title {
+  width: 412px;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.article__text {
+  color: #716C80;
+  margin-bottom: 5rem;
+}
+
+.article .btn {
+  margin-right: 3rem;
+}
